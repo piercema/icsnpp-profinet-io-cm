@@ -23,7 +23,6 @@ export {
 
 # redefine connection record to contain one of each of the pnio_cm records
 redef record connection += {
-    profinet_proto: string &optional;
     log_profinet : Profinet_Header &optional;
 };
 
